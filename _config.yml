@@ -1,0 +1,17 @@
+title: Finance Blog
+description: Personal finance tips for India and USA readers
+baseurl: ""
+url: ""
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
